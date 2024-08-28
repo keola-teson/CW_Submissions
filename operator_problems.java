@@ -42,4 +42,4 @@
     (double) total / 3; //Option C
 
 //Which of the above options correctly computes the average of total? Why do the other options not work?
-//C correclty averages the total. B and A both give incomplete numbers. A gives 4.0, B gives 2.
+//C correclty averages the total. B and A both give incomplete numbers. A gives 4.0, B gives 4. C is the only one that gives 4.67.
