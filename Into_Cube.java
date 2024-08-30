@@ -1,5 +1,5 @@
 /* 
- * This code calculates the surface area and volume of a side length. 
+ * This code calculates the surface area and volume of a cube. Change the number and the entire code changes. It cool maybe what you tink.
  * I (keola) made this.
  */
 
