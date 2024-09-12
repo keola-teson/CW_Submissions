@@ -97,29 +97,29 @@ public static void printCircleStats(double radius)
 
 public static void printMathStuffs(int num1, int num2)
 {
-	//adds the two then prints
-	num1 += num2;
-	System.out.println(num1);
-	num1 -= num2;
-	
-	//subtracts the two then prints
-	num1 -= num2;
-	System.out.println(num1);
-	num1 += num2;
-	
-	//multiplies the two then prints
-	num1 *= num2;
-	System.out.println(num1);
-	num1 /= num2;
-	
-	//divides the two then prints
-	num1 /= num2;
-	System.out.println(num1);
-	num1 *= num2;
-	
+	//adds the two, prints, then reset's the variable
+		num1 += num2;
+		System.out.println(num1);
+		num1 -= num2;
+		
+	//subtracts the two, prints, then reset's the variable
+		num1 -= num2;
+		System.out.println(num1);
+		num1 += num2;
+		
+	//multiplies the two, prints, then reset's the variable
+		num1 *= num2;
+		System.out.println(num1);
+		num1 /= num2;
+		
+	//divides the two, prints, then reset's the variable
+		num1 /= num2;
+		System.out.println(num1);
+		num1 *= num2;
+		
 	//finds the remainder of the two
-	int mod = num1 % num2;
-	System.out.println(mod);
+		int mod = num1 % num2;
+		System.out.println(mod);
 }
 
 }
