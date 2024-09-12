@@ -15,7 +15,7 @@ System.out.println(" ");
 
 //task 3
 //change the two numbers in the ():
-printMathStuffs(1, 1);
+printMathStuffs(1, 2);
 
 //--------------------------------------------------------------------------------
 
@@ -98,28 +98,19 @@ public static void printCircleStats(double radius)
 public static void printMathStuffs(int num1, int num2)
 {
 	//adds the two, prints, then reset's the variable
-		num1 += num2;
-		System.out.println(num1);
-		num1 -= num2;
+		System.out.println("the sum of the two numbers is " + (num1 + num2));
 		
 	//subtracts the two, prints, then reset's the variable
-		num1 -= num2;
-		System.out.println(num1);
-		num1 += num2;
+		System.out.println("The difference of the two numbers is " + (num1 - num2));
 		
 	//multiplies the two, prints, then reset's the variable
-		num1 *= num2;
-		System.out.println(num1);
-		num1 /= num2;
+		System.out.println("The product of the two numbers is " + (num1 * num2));
 		
 	//divides the two, prints, then reset's the variable
-		num1 /= num2;
-		System.out.println(num1);
-		num1 *= num2;
+		System.out.println("The quotient of the two numbers is " + (num1 / num2));
 		
 	//finds the remainder of the two
-		int mod = num1 % num2;
-		System.out.println(mod);
+		System.out.println("The modulos of the two numbers is " + (num1 % num2));
 }
 
 }
