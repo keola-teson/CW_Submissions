@@ -2,7 +2,6 @@
 public class Methods_Intro_Practice_CW {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 //task 1
 stateName();		
@@ -15,10 +14,12 @@ printCircleStats(2);
 System.out.println(" ");
 
 //task 3
+//change the two numbers in the ():
 printMathStuffs(16, 8);
 
-	}
+//--------------------------------------------------------------------------------
 
+	}
 /**
  * Task 1: This method states my name
  */
@@ -97,24 +98,24 @@ public static void printCircleStats(double radius)
 public static void printMathStuffs(int num1, int num2)
 {
 	//adds the two then prints
-	num1 += num2;
-	System.out.println(num1);
+	int add = num1 + num2;
+	System.out.println(add);
 	
 	//subtracts the two then prints
-	num1 -= num2;
-	System.out.println(num1);
+	int sub = num1 - num2;
+	System.out.println(sub);
 	
 	//multiplies the two then prints
-	num1 *= num2;
-	System.out.println(num1);
+	int mult = num1 * num2;
+	System.out.println(mult);
 	
 	//divides the two then prints
-	num1 /= num2;
-	System.out.println(num1);
+	int div = num1 / num2;
+	System.out.println(div);
 	
 	//finds the remainder of the two
-	num1 %= num2;
-	System.out.println(num1);
+	int mod = num1 % num2;
+	System.out.println(mod);
 }
 
 }
