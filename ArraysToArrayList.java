@@ -5,18 +5,10 @@ public class ArraysToArrayList
 	public static void main(String[] args)
 	{
 		ArrayList<Integer> numbers = new ArrayList<>();
-		numbers.add(1);
-		numbers.add(2);
-		numbers.add(3);
-		numbers.add(4);
-		numbers.add(5);
-		numbers.add(5);
-		numbers.add(5);
-		numbers.add(5);
-		numbers.add(5);
-		numbers.add(5);
-		numbers.add(6);
-		numbers.add(7);
+		
+		for (int i = 0; i <= 10; i++)
+			numbers.add((int)(Math.random() * 10) + 1);
+		System.out.println(numbers);
 		
 		System.out.println(checkFor4(numbers) + "\n");
 		
@@ -89,9 +81,7 @@ public class ArraysToArrayList
 				if (array.get(i) > array.get(i + 1))
 				{
 					//swaps them
-					int temp = array.get(i);
-					array.set(i, array.get(i + 1));
-					array.set(i + 1, temp);
+					array.set(i, array.set(i + 1, array.get(i)));
 					//changes sorted to false to allow the while to loop
 					swapped = true;
 				}
