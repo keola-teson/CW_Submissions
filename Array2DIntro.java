@@ -1,4 +1,3 @@
-package work;
 
 public class Array2DIntro
 {
@@ -13,7 +12,13 @@ public class Array2DIntro
 		 * 2 -1 8
 		 * 0 1 3
 		 */
-		int[][] nums2D = {{4, 5, 7}, {2, -1, 8}, {0, 1, 3, 4}};
+		int[][] nums2D = {{4, 5, 7}, {2, -1, 8}, {0, 1, 3}};
+		
+		System.out.println("Initial:");
+		printBoard(gridNums);
+		System.out.println();
+		printBoard(nums2D);
+		System.out.println("-----------------------\n");
 		
 		// 3) For both of those arrays, change the element in the first row, first column to a 17.
 		gridNums[0][0] = 17;
@@ -35,7 +40,7 @@ public class Array2DIntro
 		gridNums[gridNums.length - 1][gridNums[gridNums.length - 1].length - 1] = -30;
 		nums2D[nums2D.length - 1][nums2D[nums2D.length - 1].length - 1] = -30;
 		
-		//testing purposes (IGNORE THIS)
+		//-------------------------------------------
 		printBoard(gridNums);
 		System.out.println();
 		printBoard(nums2D);
