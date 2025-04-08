@@ -1,3 +1,4 @@
+package work;
 
 public class Array2DIntro
 {
@@ -122,7 +123,7 @@ public class Array2DIntro
 	 */
 	public static void printRowMajorOrder(int[][] array2D)
 	{
-		//loops through each element in each array and prints them
+		//moves through the array row by row and prints each element out from left to right
 		for (int[] array : array2D)
 		{
 			for (int num : array)
@@ -135,12 +136,11 @@ public class Array2DIntro
 	
 	/**
 	 * Prints in column major order
-	 * WHY WAS THIS SO STUPID HARD
 	 * @param array2D
 	 */
 	public static void printColumnMajorOrder(int[][] array2D)
 	{
-		//loops through each array and prints each element at the current index
+		//moves through the array column by column and prints each element from top to bottom
 		for (int i = 0; i < array2D[0].length; i++)
 		{
 			for (int j = 0; j < array2D.length; j++)
