@@ -1,4 +1,6 @@
 //this code does problems my teacher gave to us. I (Keola) made this :sunglasses:
+package work;
+
 public class Non_Void_Method_Practice {
 
 	public static void main(String[] args) {
@@ -40,7 +42,7 @@ int div;
 int mod;
 
 //sets value
-num1 = 1;
+num1 = 5;
 num2 = 2;
 add = doAdd(num1, num2);
 sub = doSub(num1, num2);

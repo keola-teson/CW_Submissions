@@ -1,6 +1,8 @@
 /*
  * This Code is for the very first assignment. It does two simple prints and then I submit it.
  */
+package work;
+
 public class Hello_World {
 
 	public static void main(String[] args) {
